@@ -7,12 +7,7 @@
  <h1> <input type="text" name="firstName"> Enter your name</h1>
 <h1> <input type="text" name="lastname"> Please enter your last name</h1>
 
-<mat-form-field appearance="fill">
-  <mat-label>Choose a date</mat-label>
-  <input name="dateOfBirth" matInput [matDatepicker]="picker">
-  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-  <mat-datepicker #picker></mat-datepicker>
-</mat-form-field>
+
 
 ,<h1>
 <select (change)="onchange()">
